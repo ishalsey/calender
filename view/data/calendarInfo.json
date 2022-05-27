@@ -1,0 +1,54 @@
+[
+    {
+        "month": "January",
+        "events": []
+    },
+    {
+        "month": "February",
+        "events": []
+    },
+    {
+        "month": "March",
+        "events": []
+    },
+    {
+        "month": "April",
+        "events": []
+    },
+    {
+        "month": "May",
+        "events": [
+            "first",
+            "second",
+            "third"
+        ]
+    },
+    {
+        "month": "June",
+        "events": []
+    },
+    {
+        "month": "July",
+        "events": []
+    },
+    {
+        "month": "August",
+        "events": []
+    },
+    {
+        "month": "September",
+        "events": []
+    },
+    {
+        "month": "November",
+        "events": []
+    },
+    {
+        "month": "December",
+        "events": []
+    },
+    {
+        "month": "January",
+        "events": []
+    }
+]

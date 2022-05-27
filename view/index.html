@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <script type="module" src="./js/functions.js" async></script>
+        <script type="module" src="./js/calender.js" async></script>
+        <title>Calender</title>
+    </head>
+    <body>
+        <div class="cover">
+            <div class="head">
+                <div class="header"></div>
+                <div class="changeMonth">
+                    <a class="changeMonthButton leftItem">&#8678;</a>
+                    <a class="changeMonthButton rightItem">&#8680;</a>
+                </div>
+            </div>
+            <div class="week">
+                <p>Sunday</p>
+                <p>Monday</p>
+                <p>Tuesday</p>
+                <p>Wednesday</p>
+                <p>Thursday</p>
+                <p>Friday</p>
+                <p>Saturday</p>
+            </div>
+            <div class="calendar"></div>
+        
+            <div class="formCover hidden">
+                <form class="addForm hidden">
+                    <h2>New Event</h2>
+                    <textarea id="event" cols="30" rows="8"></textarea> <br>
+                    <input type="submit" class="addEvent" value="Add Event">
+                    <input type="button" class="cancel" value="Cancel">
+                </form>
+                <div class="deleteEvent hidden">
+                    <h2>Event</h2>
+                    <p class="formText"></p>
+                    <button class="delete">Delete</button>
+                    <button class="quit">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
